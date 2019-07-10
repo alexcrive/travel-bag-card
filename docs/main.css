@@ -1,0 +1,118 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+	height: 100%;
+	background: #6d96bc;
+}
+.container {
+	background: url(card-2-assets/bannerbg.jpg);
+	width: 1200px;
+	height: 660px;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	
+	-webkit-box-shadow: 0px 125px 175px -56px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 125px 175px -56px rgba(0,0,0,0.75);
+	box-shadow: 0px 125px 175px -56px rgba(0,0,0,0.75);
+}
+.container-content {
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -18%);
+	-moz-transform: translate(-50%, -18%);
+	-ms-transform: translate(-50%, -18%);
+	-o-transform: translate(-50%, -18%);
+	transform: translate(-50%, -18%);
+}
+
+.travel-secrets {
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1;
+	margin-left: 2px;
+	margin-bottom: 8px;
+	letter-spacing: 0.2px;
+}
+
+.bag {
+	font-size: 50px;
+	font-weight: 500;
+	white-space: nowrap;
+	margin-bottom: 30px;
+	margin-left: 4px;
+	letter-spacing: 0.2px;
+}
+
+.story-button {
+	width: 260px;
+	color: #ffffff;
+	background: #ba2042;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 3px;
+	border: none;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	margin-bottom: 80px;
+	line-height: 1;
+	letter-spacing: 1px;
+
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.story-button:hover {
+	background: #e2e2e2;
+	color: #000000;
+}
+
+.indicators ul{
+    left: 50%;
+    list-style-type: none;
+    margin-left: -10px;
+    position: absolute;
+    transform: translate(-50%, 50%);
+}
+.indicators li{
+    float:left;
+}
+.indicators a{
+	height: 14px;
+	width: 14px;
+	background: #a8a7a7;
+	margin-top: 2px;
+	margin-right: 24px;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+.indicators a:hover {
+	background: #f1c81d;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
